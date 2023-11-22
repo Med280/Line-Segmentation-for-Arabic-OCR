@@ -1,0 +1,21 @@
+{
+  "classes_names": ["background", "text_line"],
+  "classes_colors": [
+      [0, 0, 0],
+      [0, 0, 255]
+  ],
+  "img_size": 768,
+  "no_of_epochs": 4,
+  "batch_size": 1,
+  "min_cc": 50,
+  "save_image": [""],
+  "use_amp": false,
+  "mlflow": {
+    "experiment_id": 442826864979463009,
+    "run_name": "fine_tuning",
+    "tracking_uri": "http://127.0.0.1:5000",
+    "s3_endpoint_url": null,
+    "aws_access_key_id": null,
+    "aws_secret_access_key": null
+  }
+}

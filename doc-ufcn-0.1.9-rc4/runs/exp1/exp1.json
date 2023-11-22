@@ -1,0 +1,80 @@
+{
+    "batch_size": 1,
+    "bin_size": 20,
+    "classes_colors": [
+        [
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            255
+        ]
+    ],
+    "classes_names": [
+        "background",
+        "text_line"
+    ],
+    "data_paths": {
+        "test": {
+            "image": [],
+            "json": []
+        },
+        "train": {
+            "image": [
+                "/home/omar/Documents/RASM/train/images"
+            ],
+            "json": [
+                "/home/omar/Documents/RASM/train/labels_json"
+            ],
+            "mask": [
+                "/home/omar/Documents/RASM/train/labels"
+            ]
+        },
+        "val": {
+            "image": [
+                "/home/omar/Documents/RASM/val/images"
+            ],
+            "json": [
+                "/home/omar/Documents/RASM/val/labels_json"
+            ],
+            "mask": [
+                "/home/omar/Documents/RASM/val/labels"
+            ]
+        }
+    },
+    "evaluation_path": "evaluation",
+    "experiment_name": "exp1",
+    "img_size": 768,
+    "learning_rate": 0.005,
+    "log_path": "runs/exp1",
+    "mean": "mean",
+    "min_cc": 50,
+    "mlflow": {
+        "aws_access_key_id": "None",
+        "aws_secret_access_key": "None",
+        "experiment_id": "442826864979463009",
+        "run_name": "fine_tuning",
+        "s3_endpoint_url": "None",
+        "tracking_uri": "http://127.0.0.1:5000"
+    },
+    "model_path": "model.pth",
+    "no_of_epochs": 4,
+    "no_of_params": null,
+    "prediction_path": "prediction",
+    "save_image": [
+        ""
+    ],
+    "std": "std",
+    "steps": [
+        "train"
+    ],
+    "tb_path": "events",
+    "training": {
+        "loss": "initial",
+        "restore_model": "doc-ufcn-generic-historical-line"
+    },
+    "use_amp": false
+}

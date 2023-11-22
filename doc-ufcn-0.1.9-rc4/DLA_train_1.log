@@ -1,0 +1,299 @@
+2023-06-16 09:48:52,752 - INFO - Saved configuration in /home/omar/PycharmProjects/image-segmentation-for-ocr/doc-ufcn-0.1.9-rc4/runs/ft_on_new_additional_dataset_corrected/ft_on_new_additional_dataset_corrected.json
+2023-06-16 09:48:52,825 - INFO - Running on cpu
+2023-06-16 09:48:52,919 - INFO - Loaded checkpoint model.pth (epoch 273) in 0.07084s
+2023-06-16 09:48:52,920 - INFO - Starting predicting
+2023-06-16 10:00:12,593 - INFO - Finished predicting in  0:11:19
+2023-06-16 10:00:12,596 - INFO - Starting evaluation: aco
+2023-06-16 10:00:14,427 - INFO - Finished evaluating in  0: 0: 1
+2023-06-16 10:00:14,427 - INFO - Starting evaluation: ALQistas
+train
+text_line
+IoU       =  0.8544
+Precision =  0.9885
+Recall    =  0.8632
+F-score   =  0.9212
+AP [IOU=0.50] =  0.9893
+AP [IOU=0.75] =  0.9553
+AP [IOU=0.95] =  0.0112
+AP [0.5,0.95] =  0.7383
+
+
+2023-06-16 10:00:14,668 - INFO - Finished evaluating in  0: 0: 0
+2023-06-16 10:00:14,669 - INFO - Starting evaluation: I6
+train
+text_line
+IoU       =  0.7657
+Precision =  0.8697
+Recall    =  0.8724
+F-score   =  0.8575
+AP [IOU=0.50] =  0.9431
+AP [IOU=0.75] =  0.7337
+AP [IOU=0.95] =  0.0087
+AP [0.5,0.95] =  0.6388
+
+
+2023-06-16 10:00:46,699 - INFO - Finished evaluating in  0: 0:32
+2023-06-16 10:00:46,701 - INFO - Starting evaluation: one_line
+train
+text_line
+IoU       =  0.7559
+Precision =  0.9874
+Recall    =  0.7633
+F-score   =  0.8589
+AP [IOU=0.50] =  0.9155
+AP [IOU=0.75] =  0.3837
+AP [IOU=0.95] =  0.0006
+AP [0.5,0.95] =  0.4583
+
+
+2023-06-16 10:00:47,087 - INFO - Finished evaluating in  0: 0: 0
+2023-06-16 10:00:47,088 - INFO - Starting evaluation: page
+train
+text_line
+IoU       =  0.7426
+Precision =  0.9744
+Recall    =  0.7581
+F-score   =  0.8444
+AP [IOU=0.50] =  0.8991
+AP [IOU=0.75] =  0.2859
+AP [IOU=0.95] =  0.0029
+AP [0.5,0.95] =  0.4339
+
+
+2023-06-16 10:00:47,438 - INFO - Finished evaluating in  0: 0: 0
+2023-06-16 10:00:47,439 - INFO - Starting evaluation: picture
+train
+text_line
+IoU       =  0.8286
+Precision =  0.9883
+Recall    =  0.8367
+F-score   =  0.9062
+AP [IOU=0.50] =  0.9968
+AP [IOU=0.75] =  0.9623
+AP [IOU=0.95] =  0.0036
+AP [0.5,0.95] =  0.7182
+
+
+2023-06-16 10:00:48,854 - INFO - Finished evaluating in  0: 0: 1
+2023-06-16 10:00:48,856 - INFO - Starting evaluation: yarmouk
+train
+text_line
+IoU       =  0.7773
+Precision =  0.9992
+Recall    =  0.7778
+F-score   =  0.8747
+AP [IOU=0.50] =  0.9982
+AP [IOU=0.75] =  0.7573
+AP [IOU=0.95] =  0.0
+AP [0.5,0.95] =  0.6054
+
+
+2023-06-16 10:00:51,953 - INFO - Finished evaluating in  0: 0: 3
+2023-06-16 10:00:51,954 - INFO - Starting evaluation: aco
+train
+text_line
+IoU       =  0.7452
+Precision =  0.9947
+Recall    =  0.7484
+F-score   =  0.8524
+AP [IOU=0.50] =  0.9709
+AP [IOU=0.75] =  0.4592
+AP [IOU=0.95] =  0.0005
+AP [0.5,0.95] =  0.5128
+
+
+2023-06-16 10:00:52,212 - INFO - Finished evaluating in  0: 0: 0
+2023-06-16 10:00:52,213 - INFO - Starting evaluation: ALQistas
+val
+text_line
+IoU       =  0.8257
+Precision =  0.9709
+Recall    =  0.8449
+F-score   =  0.9032
+AP [IOU=0.50] =  0.9698
+AP [IOU=0.75] =  0.8699
+AP [IOU=0.95] =  0.0179
+AP [0.5,0.95] =  0.6992
+
+
+2023-06-16 10:00:52,285 - INFO - Finished evaluating in  0: 0: 0
+2023-06-16 10:00:52,287 - INFO - Starting evaluation: I6
+val
+text_line
+IoU       =  0.7384
+Precision =  0.891
+Recall    =  0.8118
+F-score   =  0.8495
+AP [IOU=0.50] =  0.8739
+AP [IOU=0.75] =  0.6467
+AP [IOU=0.95] =  0.0239
+AP [0.5,0.95] =  0.5429
+
+
+2023-06-16 10:00:55,026 - INFO - Finished evaluating in  0: 0: 2
+2023-06-16 10:00:55,035 - INFO - Starting evaluation: one_line
+val
+text_line
+IoU       =  0.7707
+Precision =  0.9857
+Recall    =  0.7796
+F-score   =  0.8693
+AP [IOU=0.50] =  0.9357
+AP [IOU=0.75] =  0.4517
+AP [IOU=0.95] =  0.0
+AP [0.5,0.95] =  0.4912
+
+
+2023-06-16 10:00:55,093 - INFO - Finished evaluating in  0: 0: 0
+2023-06-16 10:00:55,094 - INFO - Starting evaluation: page
+val
+text_line
+IoU       =  0.8404
+Precision =  0.9666
+Recall    =  0.8667
+F-score   =  0.9102
+AP [IOU=0.50] =  1.0
+AP [IOU=0.75] =  0.8403
+AP [IOU=0.95] =  0.012
+AP [0.5,0.95] =  0.7104
+
+
+2023-06-16 10:00:55,128 - INFO - Finished evaluating in  0: 0: 0
+2023-06-16 10:00:55,130 - INFO - Starting evaluation: picture
+val
+text_line
+IoU       =  0.7926
+Precision =  0.9935
+Recall    =  0.7967
+F-score   =  0.8843
+AP [IOU=0.50] =  1.0
+AP [IOU=0.75] =  0.8189
+AP [IOU=0.95] =  0.0
+AP [0.5,0.95] =  0.6449
+
+
+2023-06-16 10:00:55,293 - INFO - Finished evaluating in  0: 0: 0
+2023-06-16 10:00:55,294 - INFO - Starting evaluation: yarmouk
+val
+text_line
+IoU       =  0.7746
+Precision =  0.9994
+Recall    =  0.7749
+F-score   =  0.8729
+AP [IOU=0.50] =  1.0
+AP [IOU=0.75] =  0.6815
+AP [IOU=0.95] =  0.0
+AP [0.5,0.95] =  0.5962
+
+
+2023-06-16 10:00:55,611 - INFO - Finished evaluating in  0: 0: 0
+2023-06-16 10:00:55,612 - INFO - Starting evaluation: aco
+val
+text_line
+IoU       =  0.7488
+Precision =  0.9981
+Recall    =  0.7499
+F-score   =  0.8557
+AP [IOU=0.50] =  0.9953
+AP [IOU=0.75] =  0.4613
+AP [IOU=0.95] =  0.0
+AP [0.5,0.95] =  0.5266
+
+
+2023-06-16 10:00:55,845 - INFO - Finished evaluating in  0: 0: 0
+2023-06-16 10:00:55,846 - INFO - Starting evaluation: ALQistas
+test
+text_line
+IoU       =  0.8404
+Precision =  0.973
+Recall    =  0.8621
+F-score   =  0.913
+AP [IOU=0.50] =  1.0
+AP [IOU=0.75] =  0.8651
+AP [IOU=0.95] =  0.0111
+AP [0.5,0.95] =  0.7183
+
+
+2023-06-16 10:00:55,896 - INFO - Finished evaluating in  0: 0: 0
+2023-06-16 10:00:55,898 - INFO - Starting evaluation: I6
+test
+text_line
+IoU       =  0.6707
+Precision =  0.9066
+Recall    =  0.7305
+F-score   =  0.8029
+AP [IOU=0.50] =  0.932
+AP [IOU=0.75] =  0.3739
+AP [IOU=0.95] =  0.0
+AP [0.5,0.95] =  0.4644
+
+
+2023-06-16 10:01:00,259 - INFO - Finished evaluating in  0: 0: 4
+2023-06-16 10:01:00,260 - INFO - Starting evaluation: one_line
+test
+text_line
+IoU       =  0.7432
+Precision =  0.9903
+Recall    =  0.7486
+F-score   =  0.8506
+AP [IOU=0.50] =  0.9436
+AP [IOU=0.75] =  0.4077
+AP [IOU=0.95] =  0.0024
+AP [0.5,0.95] =  0.4602
+
+
+2023-06-16 10:01:00,463 - INFO - Finished evaluating in  0: 0: 0
+2023-06-16 10:01:00,463 - INFO - Starting evaluation: page
+test
+text_line
+IoU       =  0.8338
+Precision =  0.9595
+Recall    =  0.8621
+F-score   =  0.9055
+AP [IOU=0.50] =  0.8901
+AP [IOU=0.75] =  0.7834
+AP [IOU=0.95] =  0.0133
+AP [0.5,0.95] =  0.6277
+
+
+2023-06-16 10:01:00,518 - INFO - Finished evaluating in  0: 0: 0
+2023-06-16 10:01:00,518 - INFO - Starting evaluation: picture
+test
+text_line
+IoU       =  0.8438
+Precision =  0.9909
+Recall    =  0.8504
+F-score   =  0.9153
+AP [IOU=0.50] =  1.0
+AP [IOU=0.75] =  0.9995
+AP [IOU=0.95] =  0.0228
+AP [0.5,0.95] =  0.7541
+
+
+2023-06-16 10:01:00,718 - INFO - Finished evaluating in  0: 0: 0
+2023-06-16 10:01:00,719 - INFO - Starting evaluation: yarmouk
+test
+text_line
+IoU       =  0.7788
+Precision =  0.9992
+Recall    =  0.7793
+F-score   =  0.8756
+AP [IOU=0.50] =  1.0
+AP [IOU=0.75] =  0.7526
+AP [IOU=0.95] =  0.0
+AP [0.5,0.95] =  0.6147
+
+
+2023-06-16 10:01:01,085 - INFO - Finished evaluating in  0: 0: 0
+test
+text_line
+IoU       =  0.7658
+Precision =  0.9956
+Recall    =  0.7685
+F-score   =  0.8673
+AP [IOU=0.50] =  0.9918
+AP [IOU=0.75] =  0.5535
+AP [IOU=0.95] =  0.0
+AP [0.5,0.95] =  0.5574
+
+
