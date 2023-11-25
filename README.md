@@ -37,7 +37,7 @@ Welcome to the Mini Project repository! This project is a small-scale applicatio
     ```bash
     python app.py
     ```
-   The application should now be running. You can access it by navigating to `http://localhost:5000` in your web browser.
+   The application should now be running. You can access it by navigating to `http://localhost:8000` in your web browser.
 
 ## Docker Support
 
